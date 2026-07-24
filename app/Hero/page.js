@@ -1,6 +1,6 @@
 
 "use client"
-export default function About(){
+export default function Hero(){
     return(
         <div className="container mx-auto">
 <div className="flex flex-col">

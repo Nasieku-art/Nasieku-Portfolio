@@ -2,7 +2,7 @@
 import Link
 from "next/link"
 import Nav from "./nav/page"
-import About from "./About/page"
+import About from "./Hero/page"
 export default function Home(){
   return(
     <>

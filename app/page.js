@@ -1,10 +1,11 @@
+"use client"
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="container mx-auto flex justify-start">
-    <div className="flex ">
-<h1 className=" justify-center  text-teal-600  font-serif ">
+    <div className="container mx-auto ">
+    <nav className="flex items-center justify-between">
+
   <div>
  <Image
  src="/image/Nasieku Logo.png" 
@@ -13,35 +14,32 @@ export default function Home() {
         height={100}
  />
  </div>
- <div className="text-amber-50 flex items-center gap-5">
-      <div >
+ <div className="text-amber-50 flex item-center gap-5 -py-6">
+     
         <button>
           About
         </button>
-      </div>
-<div>
+   
+
   <button>
     Projects
   </button>
-</div>
-<div>
+
   <button>
     Experience
   </button>
-</div>
-<div>
+
   <button>
     Contact
   </button>
-</div>
-<div>
+
   <button>
     Resume
   </button>
-</div>
-    </div>
-</h1>
-    </div>
+ 
+ </div>
+
+    </nav>
     
     </div>
   );

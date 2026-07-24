@@ -3,12 +3,14 @@ import Link
 from "next/link"
 import Nav from "./nav/page"
 import Hero from "./Hero/page"
+import About from "./about/page"
 export default function Home(){
   return(
     <>
 <Nav/>
 <main>
 <Hero/>
+<About/>
 </main>
     </>
   )

@@ -4,11 +4,11 @@ export default function Hero(){
     return(
         <div className="container mx-auto">
 <div className="flex flex-col">
-    <span className="text-teal-500 text-sm p-3">Hi, my name is</span>
-  <div className="text-4xl p-3 ">
+    <span className="text-teal-500 text-sm py-3">Hi, my name is</span>
+  <div className="text-4xl py-3 ">
     Mary Nasieku
   </div>
-<div className="p-3">
+<div className="py-3">
   I'm a passionate Full-Stack Software Developer who enjoys building
   modern,<p> responsive, and scalable web applications.</p>
   <p> I specialize in <span className="text-teal-500"><em >React</em></span>,

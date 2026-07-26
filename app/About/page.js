@@ -1,6 +1,12 @@
+
+"use client"
+import Image from "next/image";
+
 export default function About() {
   return (
     <div className="container mx-auto">
+      <div className="flex ">
+      
       <div className="py-55">
         <h1 className="font-bold text-3xl ">About Me</h1>
         <div className="py-3">
@@ -62,6 +68,15 @@ export default function About() {
           </p>
           <p>and meaningful digital experiences.</p>
         </div>
+      </div>
+      <div className="flex-1 py-20">
+<Image
+src="/image/Mary Nasieku Photo.jpg"
+            alt="Mary Nasieku"
+            width={200}
+            height={100}
+/>
+      </div>
       </div>
     </div>
   );

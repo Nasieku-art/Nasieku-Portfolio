@@ -84,14 +84,14 @@ export default function About() {
             width={200}
             height={50}
             loading="lazy"
-            className="rounded-lg object-cover "
+            className="rounded-lg object-cover"
           />
         </div>
       </div>
       <div className="py-3 flex text-center">
         <p>Here are some of the technologies that I have been working with:</p>
-        <p>Javascript(ES6+)</p>
-        <p> React</p>
+        <div><p>Javascript(ES6+)</p></div>
+        <div><p> React</p></div>
         <p>Nextjs</p>
         <p>WordPress</p>
       </div>

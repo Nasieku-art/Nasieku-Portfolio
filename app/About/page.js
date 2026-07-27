@@ -44,10 +44,10 @@ export default function About() {
           <Image
             src="/image/Mary Nasieku Photo.jpg"
             alt="Mary Nasieku"
-            width={400}
-            height={400}
+            width={150}
+            height={50}
             loading="lazy"
-            className="rounded-lg object-cover w-full max-w-sm h-auto"
+            className="rounded-lg object-cover"
           />
         </div>
 

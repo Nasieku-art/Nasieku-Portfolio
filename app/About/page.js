@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Techstack from "../techstack/pages";
 
 export default function About() {
   return (
@@ -87,7 +88,12 @@ export default function About() {
             className="rounded-lg object-cover"
           />
         </div>
+        
       </div>
+      <div>
+          <Techstack/>
+
+        </div>
     </div>
   );
 }

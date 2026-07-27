@@ -88,13 +88,6 @@ export default function About() {
           />
         </div>
       </div>
-      <div className="py-3 flex text-center">
-        <p>Here are some of the technologies that I have been working with:</p>
-        <div><p>Javascript(ES6+)</p></div>
-        <div><p> React</p></div>
-        <p>Nextjs</p>
-        <p>WordPress</p>
-      </div>
     </div>
   );
 }

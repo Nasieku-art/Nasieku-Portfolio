@@ -1,22 +1,41 @@
+"use client";
+import { useEffect, useState } from "react";
 
-"use client"
-export default function Hero(){
-    return(
-        <div className="container mx-auto">
-<div className="flex flex-col">
-    <span className="text-teal-500 text-sm py-3">Hi, my name is</span>
-  <div className="text-4xl py-3 ">
-    Mary Nasieku
-  </div>
-<div className="py-3">
-  I'm a passionate Full-Stack Software Developer who enjoys building
-  modern,<p> responsive, and scalable web applications.</p>
-  <p> I specialize in <span className="text-teal-500"><em >React</em></span>,
-<span className="text-teal-500"><em> Next.js,</em></span> <span className="text-teal-500"> <em >Tailwind CSS,</em></span> <span className="text-teal-500"><em >JavaScript,</em> </span>and backend technologies, creating
-seamless,</p> user-centered digital experiences from concept to deployment.
-</div>
+export default function Hero() {
+  const [opacity, setOpacity] = useState(1);
 
-</div>
-</div>
-    )
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const fadeDistance = 400; 
+      const newOpacity = Math.max(1 - scrollY / fadeDistance, 0);
+      setOpacity(newOpacity);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  return (
+    <div className="container mx-auto">
+    <div
+      style={{ opacity, transition: "opacity 0.1s linear" }}
+      id="hero"
+    >
+      <p className="text-teal-500">Hi, my name is</p>
+      <h1 className="text-5xl font-bold">Mary Nasieku</h1>
+      <p className="mt-4 max-w-2xl">
+        I'm a passionate{" "}
+        <span className="text-teal-500">Full-Stack Software Developer</span>{" "}
+        who enjoys building modern, responsive, and scalable web
+        applications. I specialize in{" "}
+        <span className="text-teal-500">
+          React, Next.js, Tailwind CSS, JavaScript,
+        </span>{" "}
+        and backend technologies, creating seamless, user-centered digital
+        experiences from concept to deployment.
+      </p>
+    </div>
+    </div>
+  );
 }

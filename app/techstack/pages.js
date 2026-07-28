@@ -2,17 +2,17 @@
 "use client"
 const technologies = [
   { id: 1, name: "Javascript(ES6+)" },
-  { id: 1, name: "React" },
-  { id: 1, name: "Tailwind CSS" },
-  { id: 1, name: "Nextjs" },
-  { id: 1, name: "Nodejs" },
+  { id: 2, name: "React" },
+  { id: 3, name: "Tailwind CSS" },
+  { id: 4, name: "Nextjs" },
+  { id: 5, name: "Nodejs" },
 ];
 
 export default function Techstack() {
   return (
-    <ul>
+    <ul className="list-disc list-inside space-y-1 marker:text-teal-500">
       {technologies.map((tech) => (
-        <li>{tech.name}</li>
+        <li key={tech.name}>{tech.name}</li>
       ))}
     </ul>
   );

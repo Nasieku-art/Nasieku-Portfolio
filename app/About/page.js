@@ -73,7 +73,7 @@ export default function About() {
             width={280}
             height={350}
             loading="lazy"
-            className=" object-cover w-50 h-auto"
+            className="rounded-l-lg object-cover w-60 md:box-decoration-slice"
           />
         </div>
       </div>

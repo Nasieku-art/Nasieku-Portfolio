@@ -4,27 +4,27 @@ const projects = [
     description:
       "A full-stack e-commerce marketplace for Kenyan fashion — built with React, Node.js, Express, and MongoDB.",
     github: "https://github.com/Nasieku-art/Clozzet",
-    live: "https://your-live-site-url.com", 
+  
   },
   {
     title: "DigiBridge",
     description:
       "A Kenya-based ICT literacy and digital learning platform with learner/admin dashboards and progress tracking.",
     github: "https://github.com/Nasieku-art/DigiBridge", 
-    live: "https://your-live-site-url.com",
+  
   },
   {
     title: "Digital Literacy Learning Hub",
     description:
       "A bilingual (English/Kiswahili) interactive web app built for the Kibera community, with quiz-based lessons and badges.",
     github: "https://github.com/Nasieku-art/digital-literacy-hub", 
-    live: "https://your-live-site-url.com",
+   
   },
 ];
 
 export default function Projects() {
   return (
-    <div className="container mx-auto">
+    
     <main className="min-h-screen bg-[#0F1418] px-6 py-16">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-semibold text-white mb-10">My Projects</h1>
@@ -65,6 +65,6 @@ export default function Projects() {
         </div>
       </div>
     </main>
-    </div>
+    
   );
 }

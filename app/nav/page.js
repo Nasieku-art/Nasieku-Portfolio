@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Nav() {
   return (
-    <div className="container mx-auto ">
+   
       <nav className="flex items-center justify-between">
         <div>
           <Image
@@ -25,7 +25,7 @@ export default function Nav() {
           <button className="btn bg-teal-700 rounded-3xl">Resume</button>
         </div>
       </nav>
-    </div>
+   
   );
 }
 

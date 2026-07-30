@@ -14,7 +14,7 @@ const projects = [
   
   },
   {
-    title: "Digital Literacy Learning Hub",
+    title: "One Assist Ai",
     description:
       "A bilingual (English/Kiswahili) interactive web app built for the Kibera community, with quiz-based lessons and badges.",
     github: "https://github.com/Nasieku-art/digital-literacy-hub", 

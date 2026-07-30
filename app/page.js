@@ -8,13 +8,13 @@ import Projects from "./projects/page"
 
 export default function Home(){
   return(
-    <>
+    <div className="scroll-smooth">
 <Nav/>
 <main>
 <Hero/>
 <About/>
 <Projects/>
 </main>
-    </>
+    </div>
   )
 }

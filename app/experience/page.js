@@ -1,3 +1,4 @@
+"use client";
 const EXPERIENCE = [
   {
     role: "Full-stack developer (Student)",
@@ -36,49 +37,46 @@ const EXPERIENCE = [
   },
 ];
 
-export const metadata = {
-  title: "Experience",
-  description: "Career timeline and professional experience.",
-};
 
-export default function ExperiencePage() {
+export default function Experience() {
   return (
-    <main className="min-h-screen bg-[#12151f] text-[#ede9e0]">
+    <main className="min-h-screen">
       <section className="mx-auto max-w-3xl px-6 pt-24 pb-16">
-        <p className="font-mono text-xs tracking-[0.3em] text-[#c9a227] uppercase">
+        <p className=" text-[#12d6c0] uppercase">
           Career Ledger
         </p>
-        <h1 className="mt-4 text-5xl sm:text-6xl font-serif font-medium tracking-tight text-[#f4f1e8]">
+        <h1 className="mt-4 text-5xl sm:text-6xl ">
           Experience
         </h1>
         <p className="mt-6 max-w-xl text-[15px] leading-relaxed text-[#9aa1b5]">
           A record of where I&apos;ve worked and what I built while I was there
-          — logged roughly in the order it happened.
+          logged roughly in the order it happened.
         </p>
       </section>
 
       <section className="mx-auto max-w-3xl px-6 pb-32">
-        <div className="relative border-l border-[#2b3040]">
+        <div className="relative
+         border-l border-[teal]">
           {EXPERIENCE.map((job, i) => (
             <article key={i} className="relative pl-10 pb-16 last:pb-0">
-              <div className="absolute left-[-11px] top-1 flex h-5 w-5 items-center justify-center rounded-full bg-[#12151f] border-2 border-[#c9a227]">
+              <div className="absolute left-[-11px] top-1 flex h-5 w-5 items-center justify-center ">
                 <span className="h-1.5 w-1.5 rounded-full bg-[#12d6c0]" />
               </div>
 
               <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-                <h2 className="text-2xl font-serif text-[#f4f1e8]">
+                <h2 className="text-2xl ">
                   {job.role}
                 </h2>
-                <span className="font-mono text-xs text-[#12d6c0] tracking-wide">
+                <span className=" text-[#12d6c0] ">
                   {job.period}
                 </span>
               </div>
 
-              <p className="mt-1 text-sm text-[#9aa1b5]">
+              <p className="mt-1 text-sm ">
                 {job.company} · {job.location}
               </p>
 
-              <p className="mt-4 text-[15px] leading-relaxed text-[#c7cad6]">
+              <p className="mt-4 text-[15px] leading-relaxed ">
                 {job.summary}
               </p>
 
@@ -86,7 +84,7 @@ export default function ExperiencePage() {
                 {job.highlights.map((h, idx) => (
                   <li
                     key={idx}
-                    className="flex gap-3 text-[14px] leading-relaxed text-[#c7cad6]"
+                    className="flex gap-3 text-[14px] leading-relaxed "
                   >
                     <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-[#3a4256]" />
                     {h}
@@ -99,7 +97,7 @@ export default function ExperiencePage() {
                   {job.stack.map((tech) => (
                     <span
                       key={tech}
-                      className="font-mono text-[11px] tracking-wide text-[#9aa1b5] border border-[#2b3040] rounded-full px-3 py-1"
+                      className=" px-3 py-1"
                     >
                       {tech}
                     </span>

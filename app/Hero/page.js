@@ -17,7 +17,8 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="container mx-auto">
+    <main className="min-h-screen bg-[#0F1418] px-6 py-16">
+     
     <div
       style={{ opacity, transition: "opacity 0.1s linear" }}
       id="hero"
@@ -36,6 +37,6 @@ export default function Hero() {
         experiences from concept to deployment.
       </p>
     </div>
-    </div>
+    </main>
   );
 }

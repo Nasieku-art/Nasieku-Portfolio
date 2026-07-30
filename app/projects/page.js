@@ -26,7 +26,7 @@ export default function Projects() {
   return (
     
     <main className="min-h-screen bg-[#0F1418] px-6 py-16">
-      <div className="max-w-3xl mx-auto">
+      <div className="flex max-w-3xl mx-auto">
         <h1 className="text-3xl font-semibold text-white mb-10">My Projects</h1>
 
         <div className="grid gap-6 sm:grid-cols-2">

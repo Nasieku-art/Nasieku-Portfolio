@@ -33,26 +33,23 @@ const EXPERIENCE = [
     period: "2025 — 2026",
     location: "Remote",
     summary:
-      "My first step into tech-adjacent work, where I began building foundational web development skills.",
+      "Verified property and ownership documents for house hunters, ensuring accuracy before listings moved forward.",
     highlights: [
-      "Picked up the fundamentals of HTML, CSS, and JavaScript through hands-on work.",
-      "Built small internal tools and pages to support day-to-day workflows.",
+      "Verified the income of the leasers ensuring that they meet the Credit score as per the SOP provided by the property manger",
+      "Reviewed and verified property documents for prospective Leasers.",
+      "Flagged discrepancies to keep the listing process accurate and reliable.",
+      "Ensure that the IDV was done manually and the uploaded documents were legitimate",
+      "Background check and pet criteria ensuring the the leasers they dont have any debts outside as well",
     ],
-    stack: ["HTML", "CSS", "JavaScript"],
   },
 ];
-
 
 export default function Experience() {
   return (
     <main className="min-h-screen">
       <section className="mx-auto max-w-3xl px-6 pt-24 pb-16">
-        <p className=" text-[#12d6c0] uppercase">
-          Career Ledger
-        </p>
-        <h1 className="mt-4 text-5xl sm:text-6xl ">
-          Experience
-        </h1>
+        <p className=" text-[#12d6c0] uppercase">Career Ledger</p>
+        <h1 className="mt-4 text-5xl sm:text-6xl ">Experience</h1>
         <p className="mt-6 max-w-xl text-[15px] leading-relaxed text-[#9aa1b5]">
           A record of where I&apos;ve worked and what I built while I was there
           logged roughly in the order it happened.
@@ -60,8 +57,10 @@ export default function Experience() {
       </section>
 
       <section className="mx-auto max-w-3xl px-6 pb-32">
-        <div className="relative
-         border-l border-[teal]">
+        <div
+          className="relative
+         border-l border-[teal]"
+        >
           {EXPERIENCE.map((job, i) => (
             <article key={i} className="relative pl-10 pb-16 last:pb-0">
               <div className="absolute left-[-11px] top-1 flex h-5 w-5 items-center justify-center ">
@@ -69,21 +68,15 @@ export default function Experience() {
               </div>
 
               <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-                <h2 className="text-2xl ">
-                  {job.role}
-                </h2>
-                <span className=" text-[#12d6c0] ">
-                  {job.period}
-                </span>
+                <h2 className="text-2xl ">{job.role}</h2>
+                <span className=" text-[#12d6c0] ">{job.period}</span>
               </div>
 
               <p className="mt-1 text-sm ">
                 {job.company} · {job.location}
               </p>
 
-              <p className="mt-4 text-[15px] leading-relaxed ">
-                {job.summary}
-              </p>
+              <p className="mt-4 text-[15px] leading-relaxed ">{job.summary}</p>
 
               <ul className="mt-4 space-y-2">
                 {job.highlights.map((h, idx) => (
@@ -100,10 +93,7 @@ export default function Experience() {
               {job.stack?.length > 0 && (
                 <div className="mt-5 flex flex-wrap gap-2">
                   {job.stack.map((tech) => (
-                    <span
-                      key={tech}
-                      className=" px-3 py-1"
-                    >
+                    <span key={tech} className=" px-3 py-1">
                       {tech}
                     </span>
                   ))}

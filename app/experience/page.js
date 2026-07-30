@@ -19,6 +19,7 @@ const EXPERIENCE = [
       "Javascript(ES6+)",
       "TailwindCSS",
       "Express",
+      "PostgreSQL"
     ],
   },
   {

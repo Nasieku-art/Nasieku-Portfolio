@@ -24,6 +24,7 @@ const projects = [
 
 export default function Projects() {
   return (
+    <div className="container mx-auto">
     <main className="min-h-screen bg-[#0F1418] px-6 py-16">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-semibold text-white mb-10">My Projects</h1>
@@ -44,7 +45,7 @@ export default function Projects() {
                 <a
                   href={project.github}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  
                   className="rounded-lg border border-white/15 px-4 py-2 text-sm font-medium text-white/80 hover:border-white/30 hover:text-white"
                 >
                   GitHub
@@ -53,7 +54,7 @@ export default function Projects() {
                 <a
                   href={project.live}
                   target="_blank"
-                  rel="noopener noreferrer"
+               
                   className="rounded-lg bg-teal-500 px-4 py-2 text-sm font-medium text-[#141a1f] hover:bg-teal-300"
                 >
                   Live Demo
@@ -64,5 +65,6 @@ export default function Projects() {
         </div>
       </div>
     </main>
+    </div>
   );
 }

@@ -12,7 +12,14 @@ const EXPERIENCE = [
       "Worked with a small team to plan, build, and iterate on community-facing tools.",
       "Took ownership of debugging and improving existing features for reliability.",
     ],
-    stack: ["React", "Node.js", "PostgreSQL"],
+    stack: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Javascript(ES6+)",
+      "TailwindCSS",
+      "Express",
+    ],
   },
   {
     role: "Junior Trainer",
@@ -25,10 +32,10 @@ const EXPERIENCE = [
       "Trained and mentored program participants in foundational coding and digital skills.",
       "Supported curriculum delivery and helped participants build confidence with new tools.",
     ],
-    stack: ["JavaScript", "Express", "MongoDB"],
+    stack: ["Make Art", "scratch", "Advanced-Excel", "Power BI"],
   },
   {
-    role: "Juniour Underwriter",
+    role: "Junior Underwriter",
     company: "Findings Real Estate Company",
     period: "2025 — 2026",
     location: "Remote",

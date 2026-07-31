@@ -17,13 +17,13 @@ export default function Hero() {
   }, []);
 
   return (
-    <main className="min-h-screen bg-[#0F1418] px-6 flex items-center justify-center">
+    <main className="min-h-screen px-6 flex items-center justify-center">
       <div
         style={{ opacity, transition: "opacity 0.1s linear" }}
         id="hero"
         className="max-w-2xl text-center"
       >
-        <p className="font-mono text-sm tracking-[0.2em] uppercase text-[#12d6c0]">
+        <p className="  text-teal-500">
           Hi, my name is
         </p>
 
@@ -31,11 +31,11 @@ export default function Hero() {
           Mary Nasieku
         </h1>
 
-        <p className="mt-3 text-xl sm:text-2xl font-medium text-[#9aa1b5]">
+        <p className="mt-3  sm:text-2xl font-medium text-[#9aa1b5]">
           Full-Stack Software Developer
         </p>
 
-        <p className="mt-6 mx-auto max-w-xl text-[15px] sm:text-base leading-relaxed text-[#9aa1b5]">
+        <p className="mt-6 mx-auto max-w-xl sm:text-base leading-relaxed">
           I'm a passionate{" "}
           <span className="text-[#12d6c0]">Full-Stack Software Developer</span>{" "}
           who enjoys building modern, responsive, and scalable web

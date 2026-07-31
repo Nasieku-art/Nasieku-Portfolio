@@ -25,15 +25,15 @@ const projects = [
 export default function Projects() {
   return (
     
-    <main className="min-h-screen bg-[#0F1418] px-6 py-20">
+    <main className="min-h-screen px-6 py-20">
       <div className=" max-w-3xl mx-auto">
         <h1 className="text-3xl font-semibold text-white mb-10">My Projects</h1>
 
-        <div className="grid gap-6 sm:grid-cols-2">
+        <div className="flex gap-6 sm:flex-cols">
           {projects.map((project) => (
             <div
               key={project.title}
-              className="rounded-xl border border-white/10 bg-[#141a1f] p-8"
+              className="rounded-xl border border-white/10 bg-[teal] p-8"
             >
               <h2 className="text-2xl font-semibold text-white">{project.title}</h2>
 

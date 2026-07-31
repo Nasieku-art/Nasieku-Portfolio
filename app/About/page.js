@@ -4,21 +4,10 @@ import Image from "next/image";
 import Techstack from "../techstack/pages";
 
 export default function About() {
-  // const [opacity,setOpacity]=useState(1);
-
-  // useEffect(()=>{
-  //   const handleScroll=() =>{
-  //     const scrollY=window.scrollY;
-  //     const fadeDistance =100;
-  //     const newOpacity= Math.max(1-scrollY/fadeDistance,0);
-  //     setOpacity(newOpacity);
-  //   };
-  //   window.addEventListener("scroll", handleScroll);
-  //   return() =>window.removeEventListener("scroll",handleScroll)
-  // }, [])
+  
 
   return (
-    <main className="min-h-screen bg-[#0F1418] px-6 py-16">
+    <main className="min-h-screen  px-6 py-16">
       <div className="flex flex-col md:flex-row items-start gap-8">
         <div className="py-3 flex-1">
           <h1 className="font-bold text-3xl">About Me</h1>

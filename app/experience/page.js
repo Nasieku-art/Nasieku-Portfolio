@@ -72,7 +72,7 @@ export default function Experience() {
           {EXPERIENCE.map((job, i) => (
             <article key={i} className="relative pl-10 pb-16 last:pb-0">
               <div className="absolute left-[-11px] top-1 flex h-5 w-5 items-center justify-center ">
-                <span className="h-1.5 w-1.5 rounded-full bg-[#12d6c0]" />
+                <span className="h-1.5 w-1.5 rounded-full bg-teal-500 " />
               </div>
 
               <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">

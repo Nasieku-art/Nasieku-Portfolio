@@ -2,7 +2,7 @@
 const EXPERIENCE = [
   {
     role: "Full-stack developer (Student)",
-    company: "Magoso Community Center",
+    company: "Magoso Youth Center",
     period: "2025 April — Present",
     location: "Nairbi, Kenya",
     summary:
@@ -33,7 +33,7 @@ const EXPERIENCE = [
       "Trained and mentored program participants in foundational coding and digital skills.",
       "Supported curriculum delivery and helped participants build confidence with new tools.",
     ],
-    stack: ["Make Art", "scratch", "Advanced-Excel", "Power BI"],
+    stack: ["Make Art","Scratch","Advanced-Excel","Power BI"],
   },
   {
     role: "Junior Underwriter",
@@ -54,12 +54,12 @@ const EXPERIENCE = [
 
 export default function Experience() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen font-serif">
       <section className="mx-auto max-w-3xl px-6 pt-24 pb-16">
-        <p className=" text-[#12d6c0] uppercase">Career Ledger</p>
+        <p className=" text-teal-500 uppercase">Career Ledger</p>
         <h1 className="mt-4 text-5xl sm:text-6xl ">Experience</h1>
-        <p className="mt-6 max-w-xl text-[15px] leading-relaxed text-[#9aa1b5]">
-          A record of where I&apos;ve worked and what I built while I was there
+        <p className="mt-6 max-w-xl text-[15px] leading-relaxed ">
+          A record of where I`ve worked and what I built while I was there
           logged roughly in the order it happened.
         </p>
       </section>
@@ -67,7 +67,7 @@ export default function Experience() {
       <section className="mx-auto max-w-3xl px-6 pb-32">
         <div
           className="relative
-         border-l border-[teal]"
+         border-l border-teal-500"
         >
           {EXPERIENCE.map((job, i) => (
             <article key={i} className="relative pl-10 pb-16 last:pb-0">

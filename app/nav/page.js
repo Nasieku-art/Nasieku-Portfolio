@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Nav() {
   return (
-   
-      <nav className="flex items-center justify-between">
+   <div className=" container mx-auto ">
+      <nav className="flex items-center justify-between font-serif">
         <div>
           <Image
             src="/image/Nasieku Logo.png"
@@ -25,6 +25,7 @@ export default function Nav() {
           <button className="btn bg-teal-700 rounded-3xl">Resume</button>
         </div>
       </nav>
+      </div>
    
   );
 }

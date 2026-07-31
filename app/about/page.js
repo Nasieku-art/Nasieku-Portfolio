@@ -12,7 +12,7 @@ const technologies = [
 
 export default function About() {
   return (
-    <main className="min-h-screen bg-[#0F1418] px-6 py-16">
+    <main className="min-h-screen px-6 py-16 font-serif">
       <div className="mx-auto max-w-3xl flex flex-col md:flex-row items-start gap-8">
         <div className="py-3 flex-1">
           <h1 className="font-bold text-3xl">About Me</h1>

@@ -25,7 +25,7 @@ const projects = [
 export default function Projects() {
   return (
     
-    <main className="min-h-screen px-6 py-20">
+    <main className="min-h-screen px-6 py-20 font-serif">
       <div className=" max-w-3xl mx-auto">
         <h1 className="text-3xl font-semibold text-white mb-10">My Projects</h1>
 

@@ -2,14 +2,14 @@ const projects = [
   {
     title: "Clozzet",
     description:
-      "A full-stack e-commerce marketplace for Kenyan fashion — built with React, Node.js, Express, and MongoDB.",
+      "A full-stack e-commerce marketplace for Kenyan fashion, built with React, Node.js, Express, and MongoDB.",
     github: "https://github.com/Nasieku-art/Clozzet",
   
   },
   {
     title: "DigiBridge",
     description:
-      "A Kenya-based ICT literacy and digital learning platform with learner/admin dashboards and progress tracking.",
+      "A Kenya-based ICT literacy and digital learning platform with learner/admin dashboards and progress tracking. I buildt this project with purely Javascript",
     github: "https://github.com/Nasieku-art/DigiBridge", 
   
   },
@@ -46,19 +46,12 @@ export default function Projects() {
                   href={project.github}
                   target="_blank"
                   
-                  className="rounded-lg border border-white/15 px-4 py-2 text-sm font-medium text-white/80 hover:border-white/30 hover:text-white"
+                  className="rounded-lg border  px-4 py-2 text-sm font-medium text-white/80  hover:text-white"
                 >
                   GitHub
                 </a>
 
-                <a
-                  href={project.live}
-                  target="_blank"
-               
-                  className="rounded-lg bg-teal-500 px-4 py-2 text-sm font-medium text-[#141a1f] hover:bg-teal-300"
-                >
-                  Live Demo
-                </a>
+                
               </div>
             </div>
           ))}

@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <main className="min-h-screen  flex items-center justify-center font-serif text-xl">
+    <main className="container mx-auto flex items-center justify-center font-serif text-xl">
       <div id="hero" className="max-w-2xl text-center">
         <p className="  text-teal-500">Hi, my name is</p>
 

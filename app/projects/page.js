@@ -10,14 +10,14 @@ const projects = [
     title: "DigiBridge",
     description:
       "A Kenya-based ICT literacy and digital learning platform with learner/admin dashboards and progress tracking. I buildt this project with purely Javascript",
-    github: "https://github.com/Nasieku-art/DigiBridge", 
+    github: "https://nasieku-art.github.io/DigiBridge-Project/", 
   
   },
   {
     title: "One Assist Ai",
     description:
       "A bilingual (English/Kiswahili) interactive web app built for the Kibera community, with quiz-based lessons and badges.",
-    github: "https://github.com/Nasieku-art/digital-literacy-hub", 
+    github: "https://one-assist-ai-f5cf-2yh3m1fkl-one-assist.vercel.app/", 
    
   },
 ];

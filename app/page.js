@@ -5,6 +5,7 @@ import Hero from "./Hero/page";
 import About from "./about/page";
 import Projects from "./projects/page";
 import Experience from "./experience/page";
+import Contact from "./contact/page";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <About />
         <Projects />
         <Experience />
+        <Contact/>
       </main>
     </div>
   );

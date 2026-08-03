@@ -3,11 +3,11 @@ import Link from "next/link";
 const SOCIALS = [
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/your-profile",
+    href: "https://www.linkedin.com/in/mary-nasieku-2633a6388",
   },
   {
     label: "GitHub",
-    href: "https://github.com/your-username",
+    href: "https://github.com/Nasieku-art",
   },
 ];
 

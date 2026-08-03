@@ -55,7 +55,7 @@ const EXPERIENCE = [
 export default function Experience() {
   return (
     <main className="min-h-screen font-serif">
-      <section className="mx-auto max-w-3xl px-6 pt-24 pb-16">
+      <section className="mx-auto max-w-3xl px-6 pb-16">
         <p className=" text-teal-500 uppercase">Career Ledger</p>
         <h1 className="mt-4 text-5xl sm:text-6xl ">Experience</h1>
         <p className="mt-6 max-w-xl text-[15px] leading-relaxed ">

@@ -13,7 +13,7 @@ const SOCIALS = [
 
 export default function Contact() {
   return (
-    <main className="min-h-screen flex justify-center font-serif sm:block">
+    <main className="min-h-screen flex justify-center font-serif">
       <div className="w-full max-w-md ">
         <h1 className="text-5xl font-bold">Get in touch</h1>
         <p className=" text-sm mb-6">

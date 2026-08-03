@@ -7,7 +7,7 @@ export default function Nav() {
       <nav className="flex items-center justify-between font-serif">
         <div>
           <Image
-            src="/image/Nasieku logo.png"
+            src="/image/nasieku-logo.png"
             alt="Mary Nasieku"
             width={200}
             height={100}

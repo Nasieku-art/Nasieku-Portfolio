@@ -1,8 +1,19 @@
 import Link from "next/link";
 
+const SOCIALS = [
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/your-profile",
+  },
+  {
+    label: "GitHub",
+    href: "https://github.com/your-username",
+  },
+];
+
 export default function Contact() {
   return (
-    <main className="min-h-screen flex justify-center">
+    <main className="min-h-screen flex justify-center font-serif">
       <div className="w-full max-w-md ">
         <h1 className="text-5xl font-bold">Get in touch</h1>
         <p className=" text-sm mb-6">
@@ -36,9 +47,15 @@ export default function Contact() {
           </div>
         </div>
       </div>
+
       <div className="flex flex-col items-center py-25 text-teal-600 gap-5">
-        <button className="btn bg-teal-700 rounded-3xl px-7">LinkedIn</button>
-        <button className="btn bg-teal-700 rounded-3xl px-8">github</button>
+        {SOCIALS.map((social) => (
+          <Link key={social.label} href={social.href} target="_blank" rel="noopener noreferrer">
+            <button className="btn bg-teal-700 rounded-3xl px-7">
+              {social.label}
+            </button>
+          </Link>
+        ))}
       </div>
     </main>
   );

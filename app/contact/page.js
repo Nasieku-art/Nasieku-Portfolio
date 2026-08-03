@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Contact() {
   return (
     <main className="min-h-screen flex justify-center">
@@ -34,8 +36,9 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div>
-        
+      <div className="flex flex-col items-center py-25 text-teal-600 gap-5">
+        <button className="btn bg-teal-700 rounded-3xl px-7">LinkedIn</button>
+        <button className="btn bg-teal-700 rounded-3xl px-8">github</button>
       </div>
     </main>
   );

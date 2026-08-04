@@ -26,7 +26,7 @@ const SOCIAL_LINKS = [
   {
     // TODO: replace with your actual Facebook URL (this is still the old template's)
     label: "Facebook",
-    href: "https://facebook.com/",
+    href: "https://www.facebook.com/nasieku.mary.2025",
     icon: <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />,
   },
   {
@@ -120,7 +120,7 @@ export default function Footer() {
                     href={href}
                     className="hover:text-teal-500 transition-colors inline-flex items-center gap-2 group"
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-teal-500 group-hover:bg-primary transition-colors" />
+                    <span className="w-1.5 h-1.5 rounded-full bg-teal-500 group-hover:bg-teal-800 transition-colors" />
                     {label}
                   </Link>
                 </li>

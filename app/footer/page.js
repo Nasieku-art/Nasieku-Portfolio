@@ -31,14 +31,11 @@ const SOCIAL_LINKS = [
   },
   {
 
-    label: "Twitter",
+    label: "instagram",
     href: "https://x.com/",
-    icon: (
-      <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
-    ),
+    
   },
   {
-    // TODO: replace with your actual email (this is still the old template's)
     label: "Email",
     href: "mailto:nasiekunasiekumary@gmail.com",
     icon: (
@@ -144,7 +141,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="pt-2 border-t border-border flex md:flex-row items-center justify-center gap-4">
           <p className="text-sm text-muted-foreground flex items-center gap-2">
             © {new Date().getFullYear()} Mary Nasieku
           </p>

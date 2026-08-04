@@ -134,7 +134,7 @@ export default function Footer() {
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-teal-500 text-white font-medium transition-colors hover:bg-teal-600"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-teal-700 text-white font-medium transition-colors hover:bg-teal-600"
             >
               Get in Touch
             </Link>

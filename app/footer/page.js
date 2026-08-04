@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import Image from "next/image";
 
 const SOCIAL_LINKS = [
@@ -25,20 +24,23 @@ const SOCIAL_LINKS = [
     ),
   },
   {
+    // TODO: replace with your actual Facebook URL (this is still the old template's)
     label: "Facebook",
-    href: "https://facebook.com/chaudhrymubshir.chaudhrymubshir",
+    href: "https://facebook.com/",
     icon: <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />,
   },
   {
+    // TODO: replace with your actual X/Twitter URL (this is still the old template's)
     label: "Twitter",
-    href: "https://x.com/mubi_ch1",
+    href: "https://x.com/",
     icon: (
       <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
     ),
   },
   {
+    // TODO: replace with your actual email (this is still the old template's)
     label: "Email",
-    href: "mailto:mubshirnaseer24@gmail.com",
+    href: "mailto:you@example.com",
     icon: (
       <>
         <rect width="20" height="16" x="2" y="4" rx="2" />
@@ -74,21 +76,20 @@ function Icon({ children, className }) {
 
 export default function Footer() {
   return (
-    <div className="relative border-t border-border font-serif justify-evenly">
+    <footer className="relative border-t border-border font-serif justify-evenly">
       <div className="container mx-auto px-6 py-12 md:py-16">
         <div className="grid md:grid-cols-3 gap-12 mb-3">
-       
           <div>
             <Link href="/" className="inline-block text-2xl font-bold text-gradient mb-4">
               <Image
-              src="/Image/nasieku-logo.png"
-              alt="Logo"
-              width={120}
-              height={80}
+                src="/Image/nasieku-logo.png"
+                alt="Logo"
+                width={120}
+                height={80}
               />
             </Link>
 
-            <p className=" mb-6 text-justify">
+            <p className="mb-6 text-justify">
               Passionate Full-Stack Software Developer
             </p>
 
@@ -110,10 +111,9 @@ export default function Footer() {
             </div>
           </div>
 
-       
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-            <ul>
+            <ul className="space-y-3">
               {QUICK_LINKS.map(({ label, href }) => (
                 <li key={href}>
                   <Link
@@ -133,29 +133,23 @@ export default function Footer() {
               Let&apos;s Work Together
             </h4>
             <p className="text-muted-foreground mb-4">
-              Looking for a competitive programmer or developer for your team?
+              Interested in working together or have a project in mind?
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-teal-500 -foreground font-medium transition-colors"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-teal-500 text-white font-medium transition-colors hover:bg-teal-600"
             >
               Get in Touch
-              
             </Link>
           </div>
         </div>
 
-  
         <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground flex items-center gap-2">
             © {new Date().getFullYear()} Mary Nasieku
-            
-          
-            
           </p>
-          
         </div>
       </div>
-    </div>
+    </footer>
   );
 }

@@ -64,7 +64,7 @@ export default function About() {
 
         <div className="flex-1 flex justify-center md:py-24 rounded-xl">
           <Image
-            src="https://res.cloudinary.com/tvuveq2c/image/upload/v1785824675/portfolio_h1foby.jpg"
+            src="/Image/portfolio.jpeg"
             alt="Mary Nasieku"
             width={280}
             height={350}

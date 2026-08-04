@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import Image from "next/image";
 
 export default function Nav() {
@@ -7,7 +8,7 @@ export default function Nav() {
       <nav className="flex items-center justify-between font-serif">
         <div>
           <Image
-            src="https://res.cloudinary.com/tvuveq2c/image/upload/v1785824675/nasieku-logo_jk4uic.png"
+            src="/Image/nasieku-logo.png"
             alt="Mary Nasieku"
             width={200}
             height={100}

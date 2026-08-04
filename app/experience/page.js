@@ -14,6 +14,7 @@ const EXPERIENCE = [
     ],
     stack: [
       "React",
+      "Nextjs",
       "Node.js",
       "MongoDB",
       "Javascript(ES6+)",

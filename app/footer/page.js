@@ -24,13 +24,13 @@ const SOCIAL_LINKS = [
     ),
   },
   {
-    // TODO: replace with your actual Facebook URL (this is still the old template's)
+
     label: "Facebook",
     href: "https://www.facebook.com/nasieku.mary.2025",
     icon: <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />,
   },
   {
-    // TODO: replace with your actual X/Twitter URL (this is still the old template's)
+
     label: "Twitter",
     href: "https://x.com/",
     icon: (
@@ -40,7 +40,7 @@ const SOCIAL_LINKS = [
   {
     // TODO: replace with your actual email (this is still the old template's)
     label: "Email",
-    href: "mailto:you@example.com",
+    href: "mailto:nasiekunasiekumary@gmail.com",
     icon: (
       <>
         <rect width="20" height="16" x="2" y="4" rx="2" />

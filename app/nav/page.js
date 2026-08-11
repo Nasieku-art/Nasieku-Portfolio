@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Nav() {
   return (
-    <div className="max-w-6xl mx-auto px-6 py-4">
+    <div className="max-w-6xl mx-auto px-6">
       <nav className="flex items-center justify-between font-serif">
         <div>
           <Image

@@ -47,102 +47,15 @@ const SOCIAL_LINKS = [
   },
 ];
 
-const QUICK_LINKS = [
-  { label: "About", href: "/#about" },
-  { label: "Skills", href: "/#skills" },
-  { label: "Experience", href: "/#experience" },
-  { label: "Projects", href: "/#projects" },
-  { label: "Contact", href: "/#contact" },
-];
-
-function Icon({ children, className }) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className={className}
-    >
-      {children}
-    </svg>
-  );
-}
 
 export default function Footer() {
   return (
-    <footer className="relative border-t border-border font-serif justify-evenly">
-      <div className="container mx-auto px-6 py-12 md:py-16">
-        <div className="grid md:grid-cols-3 gap-12 mb-3">
-          <div>
-            <Link href="/" className="inline-block text-2xl font-bold text-gradient mb-4">
-              <Image
-                src="/Image/nasieku-logo.png"
-                alt="Logo"
-                width={120}
-                height={80}
-              />
-            </Link>
+    <footer className="relative font-serif">
+      <div className="container mx-auto px-6  md:py-5">
+        
 
-            <p className="mb-6 text-justify">
-              Passionate Full-Stack Software Developer
-            </p>
-
-            <div className="flex gap-3">
-              {SOCIAL_LINKS.map(({ label, href, icon }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={label}
-                  className="p-3 rounded-xl bg-muted hover:bg-accent transition-colors group"
-                >
-                  <Icon className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors">
-                    {icon}
-                  </Icon>
-                </a>
-              ))}
-            </div>
-          </div>
-
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-3">
-              {QUICK_LINKS.map(({ label, href }) => (
-                <li key={href}>
-                  <Link
-                    href={href}
-                    className="hover:text-teal-500 transition-colors inline-flex items-center gap-2 group"
-                  >
-                    <span className="w-1.5 h-1.5 rounded-full bg-teal-500 group-hover:bg-teal-800 transition-colors" />
-                    {label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-lg font-semibold text-foreground mb-4">
-              Let&apos;s Work Together
-            </h4>
-            <p className="text-muted-foreground mb-4">
-              Interested in working together or have a project in mind?
-            </p>
-            <Link
-              href="/contact"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-teal-700 text-white font-medium transition-colors hover:bg-teal-600"
-            >
-              Get in Touch
-            </Link>
-          </div>
-        </div>
-
-        <div className="pt-2 border-t border-border flex md:flex-row items-center justify-center gap-4">
-          <p className="text-sm text-muted-foreground flex items-center gap-2">
+        <div className="pt-2 relative border-t border-border flex md:flex-row items-center justify-center gap-4 ">
+          <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
             © {new Date().getFullYear()} Mary Nasieku
           </p>
         </div>

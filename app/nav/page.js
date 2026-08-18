@@ -25,7 +25,7 @@ export default function Nav() {
           />
         </a>
 
-        {/* Desktop nav */}
+   
         <div className="hidden md:flex items-center gap-3 text-amber-50">
           {NAV_ITEMS.map((item) => (
             <a
@@ -38,7 +38,7 @@ export default function Nav() {
           ))}
         </div>
 
-        {/* Mobile hamburger */}
+       
         <button
           className="md:hidden flex flex-col gap-1.5 p-2"
           onClick={() => setOpen(!open)}
@@ -50,7 +50,7 @@ export default function Nav() {
         </button>
       </nav>
 
-      {/* Mobile menu */}
+     
       {open && (
         <div className="md:hidden flex flex-col gap-2 pb-4 text-amber-50">
           {NAV_ITEMS.map((item) => (

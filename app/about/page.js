@@ -13,7 +13,7 @@ const technologies = [
 export default function About() {
   return (
     <main className="px-6 py-16 font-serif">
-  <div className="mx-auto max-w-3xl flex flex-col-reverse md:flex-row items-center md:items-start gap-8">
+      <div className="mx-auto max-w-3xl flex flex-col-reverse md:flex-row items-center md:items-start gap-8">
         <div className="py-3 flex-1">
           <h1 className="font-bold text-2xl sm:text-3xl">About Me</h1>
 
@@ -62,9 +62,9 @@ export default function About() {
           </div>
         </div>
 
-        <div className="flex justify-center shrink-0 pt-25">
+        <div className="flex justify-center shrink-0">
           <Image
-            src="/image/portfolio.jpeg"
+            src="https://res.cloudinary.com/tvuveq2c/image/upload/v1787040838/WhatsApp_Image_2026-08-13_at_11.26.15_AM_1_mccmzr.jpg"
             alt="Mary Nasieku"
             width={280}
             height={350}

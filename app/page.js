@@ -1,6 +1,7 @@
 
 
 import Link from "next/link";
+import Skills from "./skills/page";
 import Nav from "./nav/page";
 import Hero from "./Hero/page";
 import About from "./about/page";
@@ -19,6 +20,7 @@ export default function Home() {
         <About />
         <Projects />
         <Experience />
+        <Skills/>
         <Contact/>
         <Footer/>
       </main>

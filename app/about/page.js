@@ -62,13 +62,15 @@ export default function About() {
           </div>
         </div>
 
-        <div className="relative w-40 sm:w-60 lg:w-64 aspect-[4/5] rounded-lg overflow-hidden ring-2 ring-teal-500/40 shadow-lg shadow-teal-500/10">
-  <Image
-    src="https://res.cloudinary.com/tvuveq2c/image/upload/v1787040838/WhatsApp_Image_2026-08-13_at_11.26.15_AM_1_mccmzr.jpg"
-    alt="Mary Nasieku"
-    fill
-    className="object-cover"
-  />
+        <div className="rounded-lg ring-2 ring-teal-500/40 shadow-lg shadow-teal-500/10">
+  <div className="relative w-40 sm:w-60 lg:w-64 aspect-[4/5] rounded-lg overflow-hidden">
+    <Image
+      src="https://res.cloudinary.com/tvuveq2c/image/upload/v1787040838/WhatsApp_Image_2026-08-13_at_11.26.15_AM_1_mccmzr.jpg"
+      alt="Mary Nasieku"
+      fill
+      className="object-cover"
+    />
+  </div>
 </div>
       </div>
     </main>

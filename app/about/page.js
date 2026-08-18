@@ -62,7 +62,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="flex justify-center shrink-0">
+        <div className="flex justify-center shrink-0 pt-25">
           <Image
             src="/image/portfolio.jpeg"
             alt="Mary Nasieku"

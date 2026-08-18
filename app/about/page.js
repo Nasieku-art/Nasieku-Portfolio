@@ -13,11 +13,11 @@ const technologies = [
 export default function About() {
   return (
     <main className="min-h-screen px-6 py-16 font-serif">
-      <div className="mx-auto max-w-3xl flex flex-col md:flex-row items-start gap-8">
+      <div className="mx-auto max-w-3xl flex flex-col-reverse md:flex-row items-center md:items-start gap-8">
         <div className="py-3 flex-1">
-          <h1 className="font-bold text-3xl">About Me</h1>
+          <h1 className="font-bold text-2xl sm:text-3xl">About Me</h1>
 
-          <div className="py-3 space-y-4">
+          <div className="py-3 space-y-4 text-sm sm:text-base leading-relaxed">
             <p>
               I'm a passionate{" "}
               <span className="text-teal-500">
@@ -54,7 +54,7 @@ export default function About() {
           </div>
 
           <div className="py-3">
-            <ul className="list-disc list-inside space-y-1 marker:text-teal-500">
+            <ul className="list-disc list-inside space-y-1 marker:text-teal-500 text-sm sm:text-base">
               {technologies.map((tech) => (
                 <li key={tech.name}>{tech.name}</li>
               ))}
@@ -62,14 +62,13 @@ export default function About() {
           </div>
         </div>
 
-        <div className="flex-1 flex justify-center md:py-24 rounded-xl">
+        <div className="flex justify-center shrink-0">
           <Image
             src="/image/portfolio.jpeg"
             alt="Mary Nasieku"
             width={280}
             height={350}
-            loading="lazy"
-            className="rounded-lg object-cover w-60 h-auto"
+            className="rounded-lg object-cover w-40 sm:w-60 h-auto"
           />
         </div>
       </div>

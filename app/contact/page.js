@@ -13,10 +13,10 @@ const SOCIALS = [
 
 export default function Contact() {
   return (
-    <main className="min-h-screen flex justify-center font-serif">
-      <div className="w-full max-w-md ">
-        <h1 className="text-5xl font-bold">Get in touch</h1>
-        <p className=" text-sm mb-6">
+    <main className="min-h-screen flex flex-col sm:flex-row justify-center items-center sm:items-start gap-10 px-6 py-16 font-serif">
+      <div className="w-full max-w-md">
+        <h1 className="text-3xl sm:text-5xl font-bold">Get in touch</h1>
+        <p className="text-sm mb-6">
           Reach out through any of the channels below.
         </p>
 
@@ -25,7 +25,7 @@ export default function Contact() {
             <p className="text-sm font-medium">Email</p>
             <a
               href="mailto:nasiekunasiekumary77@gmail.com"
-              className="text-sm text-teal-600 hover:underline"
+              className="text-sm text-teal-600 hover:underline break-all"
             >
               nasiekunasiekumary77@gmail.com
             </a>
@@ -48,10 +48,10 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center py-25 text-teal-600 gap-5">
+      <div className="flex flex-row sm:flex-col items-center py-4 sm:py-6 text-teal-600 gap-3 sm:gap-5">
         {SOCIALS.map((social) => (
           <Link key={social.label} href={social.href} target="_blank" rel="noopener noreferrer">
-            <button className="btn bg-teal-700 rounded-3xl px-7">
+            <button className="btn bg-teal-700 rounded-3xl px-7 py-2 text-white">
               {social.label}
             </button>
           </Link>

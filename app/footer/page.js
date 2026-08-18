@@ -1,6 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
-
 const SOCIAL_LINKS = [
   {
     label: "GitHub",
@@ -24,16 +21,13 @@ const SOCIAL_LINKS = [
     ),
   },
   {
-
     label: "Facebook",
     href: "https://www.facebook.com/nasieku.mary.2025",
     icon: <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />,
   },
   {
-
     label: "instagram",
     href: "https://x.com/",
-    
   },
   {
     label: "Email",
@@ -47,15 +41,12 @@ const SOCIAL_LINKS = [
   },
 ];
 
-
 export default function Footer() {
   return (
     <footer className="relative font-serif">
-      <div className="container mx-auto px-6  md:py-5">
-        
-
-        <div className="pt-2 relative border-t border-border flex md:flex-row items-center justify-center gap-4 ">
-          <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
+      <div className="container mx-auto px-6 py-4 md:py-5">
+        <div className="pt-2 relative border-t border-border flex flex-col md:flex-row items-center justify-center gap-4">
+          <p className="text-sm text-muted-foreground flex items-center justify-center gap-2 text-center">
             © {new Date().getFullYear()} Mary Nasieku
           </p>
         </div>

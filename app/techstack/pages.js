@@ -1,5 +1,4 @@
-
-"use client"
+"use client";
 const technologies = [
   { id: 1, name: "Javascript(ES6+)" },
   { id: 2, name: "React" },

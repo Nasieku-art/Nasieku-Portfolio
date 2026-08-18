@@ -1,4 +1,5 @@
-"use client";
+
+
 import Link from "next/link";
 import Nav from "./nav/page";
 import Hero from "./Hero/page";

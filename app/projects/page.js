@@ -3,13 +3,13 @@ const projects = [
     title: "Cheptulu Sunrise Academy",
     description:
       "An information website for Cheptulu Secondary School, built with Next.js, Tailwind CSS, and MongoDB, with an admin-managed dynamic layer for events and admissions.",
-    Vercel: "https://cheptulu-sunrise.vercel.app/",
+    github: "https://cheptulu-sunrise.vercel.app/",
   },
   {
     title: "One Assist Ai",
     description:
       "A bilingual (English/Kiswahili) interactive web app built for the Kibera community, with quiz-based lessons and badges.",
-    Vercel: "https://one-assist-ai-f5cf-2yh3m1fkl-one-assist.vercel.app/",
+   github: "https://one-assist-ai-f5cf-2yh3m1fkl-one-assist.vercel.app/",
   },
   {
     title: "Clozzet",

@@ -12,8 +12,8 @@ const technologies = [
 
 export default function About() {
   return (
-    <main className="min-h-screen px-6 py-16 font-serif">
-      <div className="mx-auto max-w-3xl flex flex-col-reverse md:flex-row items-center md:items-start gap-8">
+    <main className="px-6 py-16 font-serif">
+  <div className="mx-auto max-w-3xl flex flex-col-reverse md:flex-row items-center md:items-start gap-8">
         <div className="py-3 flex-1">
           <h1 className="font-bold text-2xl sm:text-3xl">About Me</h1>
 

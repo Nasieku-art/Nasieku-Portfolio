@@ -13,7 +13,7 @@ const SOCIALS = [
 
 export default function Contact() {
   return (
-    <main className="flex flex-col sm:flex-row justify-center items-center sm:items-start gap-10 px-6 py-16 font-serif">
+    <main id="contact" className="flex flex-col sm:flex-row justify-center items-center sm:items-start gap-10 px-6 py-16 font-serif scroll-mt-24">
       <div className="w-full max-w-md">
         <h1 className="text-3xl sm:text-5xl font-bold">Get in touch</h1>
         <p className="text-sm mb-6">
@@ -50,12 +50,7 @@ export default function Contact() {
 
       <div className="flex flex-row sm:flex-col items-center py-4 sm:py-6 text-teal-600 gap-3 sm:gap-5">
         {SOCIALS.map((social) => (
-          <Link
-            key={social.label}
-            href={social.href}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link key={social.label} href={social.href} target="_blank" rel="noopener noreferrer">
             <button className="btn bg-teal-700 rounded-3xl px-7 py-2 text-white">
               {social.label}
             </button>

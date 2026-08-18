@@ -13,7 +13,7 @@ const SOCIALS = [
 
 export default function Contact() {
   return (
-    <main className="min-h-screen flex flex-col sm:flex-row justify-center items-center sm:items-start gap-10 px-6 py-10 font-serif">
+    <main className="flex flex-col sm:flex-row justify-center items-center sm:items-start gap-10 px-6 py-16 font-serif">
       <div className="w-full max-w-md">
         <h1 className="text-3xl sm:text-5xl font-bold">Get in touch</h1>
         <p className="text-sm mb-6">

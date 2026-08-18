@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
-    <main className="container mx-auto flex items-center justify-center font-serif px-6 py-16 sm:py-20">
-      <div id="hero" className="max-w-2xl text-center">
+    <main id="hero" className="container mx-auto flex items-center justify-center font-serif px-6 py-16 sm:py-20 scroll-mt-24">
+      <div className="max-w-2xl text-center">
         <p className="text-teal-500 text-lg">Hi, my name is</p>
 
         <h1 className="mt-4 text-4xl sm:text-7xl font-bold">Mary Nasieku</h1>

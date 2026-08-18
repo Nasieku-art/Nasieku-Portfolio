@@ -4,7 +4,7 @@ const EXPERIENCE = [
     role: "Full-stack developer (Student)",
     company: "Magoso Youth Center",
     period: "2025 April — Present",
-    location: "Nairbi, Kenya",
+    location: "Nairobi, Kenya",
     summary:
       "I am a passionate full-stack developer currently at Magoso community center",
     highlights: [
@@ -55,7 +55,7 @@ const EXPERIENCE = [
 
 export default function Experience() {
   return (
-    <main className="font-serif">
+    <main id="experience" className="font-serif scroll-mt-24">
       <section className="mx-auto max-w-3xl px-6 pb-16">
         <p className=" text-teal-500 uppercase">Career Ledger</p>
         <h1 className="mt-4 text-5xl sm:text-6xl ">Experience</h1>

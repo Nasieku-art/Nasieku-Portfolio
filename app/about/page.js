@@ -12,7 +12,7 @@ const technologies = [
 
 export default function About() {
   return (
-    <main className="px-6 py-16 font-serif">
+    <main id="about" className="px-6 py-16 font-serif scroll-mt-24">
       <div className="mx-auto max-w-3xl flex flex-col-reverse md:flex-row items-center md:items-start gap-8">
         <div className="py-3 flex-1">
           <h1 className="font-bold text-2xl sm:text-3xl">About Me</h1>
@@ -62,16 +62,15 @@ export default function About() {
           </div>
         </div>
 
-        <div className="flex justify-center shrink-0 lg:pt-24">
-  <div className="relative w-40 sm:w-60 lg:w-64 aspect-[4/5] rounded-lg overflow-hidden">
-    <Image
-      src="https://res.cloudinary.com/tvuveq2c/image/upload/v1787040838/WhatsApp_Image_2026-08-13_at_11.26.15_AM_1_mccmzr.jpg"
-      alt="Mary Nasieku"
-      fill
-      className="object-cover"
-    />
-  </div>
-</div>
+        <div className="flex justify-center shrink-0">
+          <Image
+            src="https://res.cloudinary.com/tvuveq2c/image/upload/v1787040838/WhatsApp_Image_2026-08-13_at_11.26.15_AM_1_mccmzr.jpg"
+            alt="Mary Nasieku"
+            width={280}
+            height={350}
+            className="rounded-lg object-cover w-40 sm:w-60 h-auto"
+          />
+        </div>
       </div>
     </main>
   );

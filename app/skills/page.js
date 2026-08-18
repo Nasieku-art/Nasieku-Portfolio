@@ -40,7 +40,7 @@ const skillGroups = [
 
 export default function Skills() {
   return (
-    <main className="px-6 py-20 font-serif">
+    <main id="skills" className="px-6 py-20 font-serif scroll-mt-24">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
           <p className="text-teal-500 text-sm uppercase tracking-wide">

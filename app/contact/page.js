@@ -27,7 +27,7 @@ export default function Contact() {
               href="mailto:nasiekunasiekumary77@gmail.com"
               className="text-sm text-teal-600 hover:underline break-all"
             >
-              nasiekunasiekumary77@gmail.com
+              nasiekunasiekumary@gmail.com
             </a>
           </div>
 
@@ -50,7 +50,12 @@ export default function Contact() {
 
       <div className="flex flex-row sm:flex-col items-center py-4 sm:py-6 text-teal-600 gap-3 sm:gap-5">
         {SOCIALS.map((social) => (
-          <Link key={social.label} href={social.href} target="_blank" rel="noopener noreferrer">
+          <Link
+            key={social.label}
+            href={social.href}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="btn bg-teal-700 rounded-3xl px-7 py-2 text-white">
               {social.label}
             </button>
